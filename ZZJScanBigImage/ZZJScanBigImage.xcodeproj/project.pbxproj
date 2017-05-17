@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D81563851ECC1F5200A1A022 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D81563841ECC1F5200A1A022 /* main.m */; };
+		D81563881ECC1F5200A1A022 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D81563871ECC1F5200A1A022 /* AppDelegate.m */; };
+		D815638B1ECC1F5200A1A022 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D815638A1ECC1F5200A1A022 /* ViewController.m */; };
+		D815638E1ECC1F5200A1A022 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D815638C1ECC1F5200A1A022 /* Main.storyboard */; };
+		D81563901ECC1F5200A1A022 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D815638F1ECC1F5200A1A022 /* Assets.xcassets */; };
+		D81563931ECC1F5200A1A022 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D81563911ECC1F5200A1A022 /* LaunchScreen.storyboard */; };
+		D815639E1ECC1F5200A1A022 /* ZZJScanBigImageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D815639D1ECC1F5200A1A022 /* ZZJScanBigImageTests.m */; };
+		D81563A91ECC1F5200A1A022 /* ZZJScanBigImageUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D81563A81ECC1F5200A1A022 /* ZZJScanBigImageUITests.m */; };
+		D81563B91ECC1F8400A1A022 /* ZZJScanBigImage.m in Sources */ = {isa = PBXBuildFile; fileRef = D81563B81ECC1F8400A1A022 /* ZZJScanBigImage.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D815639A1ECC1F5200A1A022 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D81563781ECC1F5200A1A022 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D815637F1ECC1F5200A1A022;
+			remoteInfo = ZZJScanBigImage;
+		};
+		D81563A51ECC1F5200A1A022 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D81563781ECC1F5200A1A022 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D815637F1ECC1F5200A1A022;
+			remoteInfo = ZZJScanBigImage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D81563801ECC1F5200A1A022 /* ZZJScanBigImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZZJScanBigImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D81563841ECC1F5200A1A022 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D81563861ECC1F5200A1A022 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D81563871ECC1F5200A1A022 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D81563891ECC1F5200A1A022 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D815638A1ECC1F5200A1A022 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D815638D1ECC1F5200A1A022 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D815638F1ECC1F5200A1A022 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D81563921ECC1F5200A1A022 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D81563941ECC1F5200A1A022 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D81563991ECC1F5200A1A022 /* ZZJScanBigImageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZZJScanBigImageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D815639D1ECC1F5200A1A022 /* ZZJScanBigImageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZJScanBigImageTests.m; sourceTree = "<group>"; };
+		D815639F1ECC1F5200A1A022 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D81563A41ECC1F5200A1A022 /* ZZJScanBigImageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZZJScanBigImageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D81563A81ECC1F5200A1A022 /* ZZJScanBigImageUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZJScanBigImageUITests.m; sourceTree = "<group>"; };
+		D81563AA1ECC1F5200A1A022 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D81563B71ECC1F8400A1A022 /* ZZJScanBigImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZJScanBigImage.h; sourceTree = "<group>"; };
+		D81563B81ECC1F8400A1A022 /* ZZJScanBigImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZJScanBigImage.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D815637D1ECC1F5200A1A022 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D81563961ECC1F5200A1A022 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D81563A11ECC1F5200A1A022 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D81563771ECC1F5200A1A022 = {
+			isa = PBXGroup;
+			children = (
+				D81563821ECC1F5200A1A022 /* ZZJScanBigImage */,
+				D815639C1ECC1F5200A1A022 /* ZZJScanBigImageTests */,
+				D81563A71ECC1F5200A1A022 /* ZZJScanBigImageUITests */,
+				D81563811ECC1F5200A1A022 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D81563811ECC1F5200A1A022 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D81563801ECC1F5200A1A022 /* ZZJScanBigImage.app */,
+				D81563991ECC1F5200A1A022 /* ZZJScanBigImageTests.xctest */,
+				D81563A41ECC1F5200A1A022 /* ZZJScanBigImageUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D81563821ECC1F5200A1A022 /* ZZJScanBigImage */ = {
+			isa = PBXGroup;
+			children = (
+				D81563B61ECC1F7400A1A022 /* ZZJScanBigImage */,
+				D81563861ECC1F5200A1A022 /* AppDelegate.h */,
+				D81563871ECC1F5200A1A022 /* AppDelegate.m */,
+				D81563891ECC1F5200A1A022 /* ViewController.h */,
+				D815638A1ECC1F5200A1A022 /* ViewController.m */,
+				D815638C1ECC1F5200A1A022 /* Main.storyboard */,
+				D815638F1ECC1F5200A1A022 /* Assets.xcassets */,
+				D81563911ECC1F5200A1A022 /* LaunchScreen.storyboard */,
+				D81563941ECC1F5200A1A022 /* Info.plist */,
+				D81563831ECC1F5200A1A022 /* Supporting Files */,
+			);
+			path = ZZJScanBigImage;
+			sourceTree = "<group>";
+		};
+		D81563831ECC1F5200A1A022 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D81563841ECC1F5200A1A022 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D815639C1ECC1F5200A1A022 /* ZZJScanBigImageTests */ = {
+			isa = PBXGroup;
+			children = (
+				D815639D1ECC1F5200A1A022 /* ZZJScanBigImageTests.m */,
+				D815639F1ECC1F5200A1A022 /* Info.plist */,
+			);
+			path = ZZJScanBigImageTests;
+			sourceTree = "<group>";
+		};
+		D81563A71ECC1F5200A1A022 /* ZZJScanBigImageUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D81563A81ECC1F5200A1A022 /* ZZJScanBigImageUITests.m */,
+				D81563AA1ECC1F5200A1A022 /* Info.plist */,
+			);
+			path = ZZJScanBigImageUITests;
+			sourceTree = "<group>";
+		};
+		D81563B61ECC1F7400A1A022 /* ZZJScanBigImage */ = {
+			isa = PBXGroup;
+			children = (
+				D81563B71ECC1F8400A1A022 /* ZZJScanBigImage.h */,
+				D81563B81ECC1F8400A1A022 /* ZZJScanBigImage.m */,
+			);
+			path = ZZJScanBigImage;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D815637F1ECC1F5200A1A022 /* ZZJScanBigImage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D81563AD1ECC1F5200A1A022 /* Build configuration list for PBXNativeTarget "ZZJScanBigImage" */;
+			buildPhases = (
+				D815637C1ECC1F5200A1A022 /* Sources */,
+				D815637D1ECC1F5200A1A022 /* Frameworks */,
+				D815637E1ECC1F5200A1A022 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZZJScanBigImage;
+			productName = ZZJScanBigImage;
+			productReference = D81563801ECC1F5200A1A022 /* ZZJScanBigImage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D81563981ECC1F5200A1A022 /* ZZJScanBigImageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D81563B01ECC1F5200A1A022 /* Build configuration list for PBXNativeTarget "ZZJScanBigImageTests" */;
+			buildPhases = (
+				D81563951ECC1F5200A1A022 /* Sources */,
+				D81563961ECC1F5200A1A022 /* Frameworks */,
+				D81563971ECC1F5200A1A022 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D815639B1ECC1F5200A1A022 /* PBXTargetDependency */,
+			);
+			name = ZZJScanBigImageTests;
+			productName = ZZJScanBigImageTests;
+			productReference = D81563991ECC1F5200A1A022 /* ZZJScanBigImageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D81563A31ECC1F5200A1A022 /* ZZJScanBigImageUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D81563B31ECC1F5200A1A022 /* Build configuration list for PBXNativeTarget "ZZJScanBigImageUITests" */;
+			buildPhases = (
+				D81563A01ECC1F5200A1A022 /* Sources */,
+				D81563A11ECC1F5200A1A022 /* Frameworks */,
+				D81563A21ECC1F5200A1A022 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D81563A61ECC1F5200A1A022 /* PBXTargetDependency */,
+			);
+			name = ZZJScanBigImageUITests;
+			productName = ZZJScanBigImageUITests;
+			productReference = D81563A41ECC1F5200A1A022 /* ZZJScanBigImageUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D81563781ECC1F5200A1A022 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = ZZJ;
+				TargetAttributes = {
+					D815637F1ECC1F5200A1A022 = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+					};
+					D81563981ECC1F5200A1A022 = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D815637F1ECC1F5200A1A022;
+					};
+					D81563A31ECC1F5200A1A022 = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D815637F1ECC1F5200A1A022;
+					};
+				};
+			};
+			buildConfigurationList = D815637B1ECC1F5200A1A022 /* Build configuration list for PBXProject "ZZJScanBigImage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D81563771ECC1F5200A1A022;
+			productRefGroup = D81563811ECC1F5200A1A022 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D815637F1ECC1F5200A1A022 /* ZZJScanBigImage */,
+				D81563981ECC1F5200A1A022 /* ZZJScanBigImageTests */,
+				D81563A31ECC1F5200A1A022 /* ZZJScanBigImageUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D815637E1ECC1F5200A1A022 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D81563931ECC1F5200A1A022 /* LaunchScreen.storyboard in Resources */,
+				D81563901ECC1F5200A1A022 /* Assets.xcassets in Resources */,
+				D815638E1ECC1F5200A1A022 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D81563971ECC1F5200A1A022 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D81563A21ECC1F5200A1A022 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D815637C1ECC1F5200A1A022 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D81563B91ECC1F8400A1A022 /* ZZJScanBigImage.m in Sources */,
+				D815638B1ECC1F5200A1A022 /* ViewController.m in Sources */,
+				D81563881ECC1F5200A1A022 /* AppDelegate.m in Sources */,
+				D81563851ECC1F5200A1A022 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D81563951ECC1F5200A1A022 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D815639E1ECC1F5200A1A022 /* ZZJScanBigImageTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D81563A01ECC1F5200A1A022 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D81563A91ECC1F5200A1A022 /* ZZJScanBigImageUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D815639B1ECC1F5200A1A022 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D815637F1ECC1F5200A1A022 /* ZZJScanBigImage */;
+			targetProxy = D815639A1ECC1F5200A1A022 /* PBXContainerItemProxy */;
+		};
+		D81563A61ECC1F5200A1A022 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D815637F1ECC1F5200A1A022 /* ZZJScanBigImage */;
+			targetProxy = D81563A51ECC1F5200A1A022 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D815638C1ECC1F5200A1A022 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D815638D1ECC1F5200A1A022 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D81563911ECC1F5200A1A022 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D81563921ECC1F5200A1A022 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D81563AB1ECC1F5200A1A022 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D81563AC1ECC1F5200A1A022 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D81563AE1ECC1F5200A1A022 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZZJScanBigImage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzj.ZZJScanBigImage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D81563AF1ECC1F5200A1A022 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZZJScanBigImage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzj.ZZJScanBigImage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D81563B11ECC1F5200A1A022 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZZJScanBigImageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzj.ZZJScanBigImageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZZJScanBigImage.app/ZZJScanBigImage";
+			};
+			name = Debug;
+		};
+		D81563B21ECC1F5200A1A022 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZZJScanBigImageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzj.ZZJScanBigImageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZZJScanBigImage.app/ZZJScanBigImage";
+			};
+			name = Release;
+		};
+		D81563B41ECC1F5200A1A022 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZZJScanBigImageUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzj.ZZJScanBigImageUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZZJScanBigImage;
+			};
+			name = Debug;
+		};
+		D81563B51ECC1F5200A1A022 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZZJScanBigImageUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzj.ZZJScanBigImageUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZZJScanBigImage;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D815637B1ECC1F5200A1A022 /* Build configuration list for PBXProject "ZZJScanBigImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D81563AB1ECC1F5200A1A022 /* Debug */,
+				D81563AC1ECC1F5200A1A022 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D81563AD1ECC1F5200A1A022 /* Build configuration list for PBXNativeTarget "ZZJScanBigImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D81563AE1ECC1F5200A1A022 /* Debug */,
+				D81563AF1ECC1F5200A1A022 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D81563B01ECC1F5200A1A022 /* Build configuration list for PBXNativeTarget "ZZJScanBigImageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D81563B11ECC1F5200A1A022 /* Debug */,
+				D81563B21ECC1F5200A1A022 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D81563B31ECC1F5200A1A022 /* Build configuration list for PBXNativeTarget "ZZJScanBigImageUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D81563B41ECC1F5200A1A022 /* Debug */,
+				D81563B51ECC1F5200A1A022 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D81563781ECC1F5200A1A022 /* Project object */;
+}
